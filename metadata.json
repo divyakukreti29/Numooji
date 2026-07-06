@@ -1,0 +1,6 @@
+{
+  "name": "Numooji",
+  "description": "A cozy, hand-drawn procedural math game featuring cute interactive animals, custom math formulas, sketchy pencil borders, and paper grain aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
