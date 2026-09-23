@@ -35,7 +35,6 @@ export interface AnimalTheme {
 export interface AnimalConfig {
   id: AnimalId;
   name: string;
-  tagline: string;
   ability: string;
   abilityDesc: string;
   theme: AnimalTheme;
@@ -54,7 +53,6 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   pibble: {
     id: 'pibble',
     name: 'Pibble',
-    tagline: 'presses first, thinks never.',
     ability: 'chaos bonus',
     abilityDesc: 'Highly chaotic equations but gives a random +50 to +150 score bonus on every correct streak milestone!',
     theme: {
@@ -112,7 +110,6 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   momo: {
     id: 'momo',
     name: 'Momo',
-    tagline: 'slow brain, strong mind.',
     ability: 'steady mind',
     abilityDesc: 'Get a +5 seconds timer boost for every 3 consecutive correct answers!',
     theme: {
@@ -172,7 +169,6 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   sly: {
     id: 'sly',
     name: 'Sly',
-    tagline: 'Quiet plans. Sharp moves.',
     ability: 'sharp instinct',
     abilityDesc: 'Get a +3 seconds timer boost for every 3 consecutive correct answers!',
     theme: {
@@ -232,7 +228,6 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   bo: {
     id: 'bo',
     name: 'Bo',
-    tagline: 'Panics now. Wins later.',
     ability: 'Panic Burst',
     abilityDesc: 'Solve a question with less than 2 seconds left to earn a +200 Panic Bonus!',
     theme: {
@@ -292,7 +287,6 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   nori: {
     id: 'nori',
     name: 'Nori',
-    tagline: 'Curious always.',
     ability: 'Curious Hint',
     abilityDesc: 'Earn a Hint for every 3-streak. Tap it to eliminate one incorrect answer or highlight a useful clue!',
     theme: {
