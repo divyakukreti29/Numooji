@@ -35,6 +35,7 @@ export interface AnimalTheme {
 export interface AnimalConfig {
   id: AnimalId;
   name: string;
+  tagline: string;
   ability: string;
   abilityDesc: string;
   theme: AnimalTheme;
@@ -53,7 +54,8 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   pibble: {
     id: 'pibble',
     name: 'Pibble',
-    ability: 'chaos bonus',
+    tagline: 'Just go for it.',
+    ability: 'Chaos Bonus',
     abilityDesc: 'Highly chaotic equations but gives a random +50 to +150 score bonus on every correct streak milestone!',
     theme: {
       primary: '#fff0f3', // light pink
@@ -110,7 +112,8 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   momo: {
     id: 'momo',
     name: 'Momo',
-    ability: 'steady mind',
+    tagline: 'Take your time.',
+    ability: 'Steady Mind',
     abilityDesc: 'Get a +5 seconds timer boost for every 3 consecutive correct answers!',
     theme: {
       primary: '#FAF5ED', // cream warm beige
@@ -169,7 +172,8 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   sly: {
     id: 'sly',
     name: 'Sly',
-    ability: 'sharp instinct',
+    tagline: 'Sees it coming.',
+    ability: 'Sharp Instinct',
     abilityDesc: 'Get a +3 seconds timer boost for every 3 consecutive correct answers!',
     theme: {
       primary: '#FFF7F0', // off orange
@@ -228,6 +232,7 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   bo: {
     id: 'bo',
     name: 'Bo',
+    tagline: 'Go, go, go!',
     ability: 'Panic Burst',
     abilityDesc: 'Solve a question with less than 2 seconds left to earn a +200 Panic Bonus!',
     theme: {
@@ -287,6 +292,7 @@ export const ANIMALS: Record<AnimalId, AnimalConfig> = {
   nori: {
     id: 'nori',
     name: 'Nori',
+    tagline: 'Wonder what it is.',
     ability: 'Curious Hint',
     abilityDesc: 'Earn a Hint for every 3-streak. Tap it to eliminate one incorrect answer or highlight a useful clue!',
     theme: {
